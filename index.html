@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>タブ</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/script.js" defer></script>
+	</head>
+	<body>
+		<h1>タブ</h1>
+		<p>アクセシビリティには対応していない、ただのタブ</p>
+		<p>タブとコンテンツをdata属性では連動させていない</p>
+
+		<section>
+			<h2>タブ1</h2>
+			<div class="js-tab-parent">
+				<ul class="tab-trigger">
+					<li class="js-tab-trigger tab-trigger__item is-active">タブ1</li>
+					<li class="js-tab-trigger tab-trigger__item">タブ2</li>
+					<li class="js-tab-trigger tab-trigger__item">タブ3</li>
+				</ul>
+				<div class="tab-content">
+					<div class="js-tab-content tab-content__item is-show">タブコンテンツ1<br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolore odio laborum quaerat totam. Eius, vero! Qui, natus eius. Beatae nobis voluptatibus animi facilis sequi, optio maxime autem nostrum sint.</div>
+					<div class="js-tab-content tab-content__item">タブコンテンツ2<br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in hic omnis nihil voluptates illum assumenda pariatur blanditiis? Accusantium numquam deserunt dignissimos reprehenderit aperiam minus a rem iure. Voluptatum, veritatis!a<br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, expedita laborum, veniam sunt eum dolore cum voluptatibus consequuntur soluta mollitia dolorem sequi explicabo perferendis quae inventore velit accusamus minus debitis?</div>
+					<div class="js-tab-content tab-content__item">タブコンテンツ3<br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in hic omnis nihil voluptates illum assumenda pariatur blanditiis? Accusantium numquam deserunt dignissimos reprehenderit aperiam minus a rem iure. Voluptatum, veritatis!</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2>タブ2</h2>
+			<p>ページ内の複数箇所でも大丈夫</p>
+			<div class="js-tab-parent">
+				<ul class="tab-trigger">
+					<li class="js-tab-trigger tab-trigger__item is-active">タブ1</li>
+					<li class="js-tab-trigger tab-trigger__item">タブ2</li>
+					<li class="js-tab-trigger tab-trigger__item">タブ3</li>
+				</ul>
+				<div class="tab-content">
+					<div class="js-tab-content tab-content__item is-show">タブコンテンツ1<br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolore odio laborum quaerat totam. Eius, vero! Qui, natus eius. Beatae nobis voluptatibus animi facilis sequi, optio maxime autem nostrum sint.</div>
+					<div class="js-tab-content tab-content__item">タブコンテンツ2<br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in hic omnis nihil voluptates illum assumenda pariatur blanditiis? Accusantium numquam deserunt dignissimos reprehenderit aperiam minus a rem iure. Voluptatum, veritatis!a<br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, expedita laborum, veniam sunt eum dolore cum voluptatibus consequuntur soluta mollitia dolorem sequi explicabo perferendis quae inventore velit accusamus minus debitis?</div>
+					<div class="js-tab-content tab-content__item">タブコンテンツ3<br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in hic omnis nihil voluptates illum assumenda pariatur blanditiis? Accusantium numquam deserunt dignissimos reprehenderit aperiam minus a rem iure. Voluptatum, veritatis!</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

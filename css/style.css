@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * タブ
+ */
+.tab-trigger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.tab-trigger .tab-trigger__item {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: #ccc;
+  cursor: pointer;
+}
+.tab-trigger .tab-trigger__item.is-active {
+  background: #fff;
+}
+
+.tab-content .tab-content__item {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.tab-content .tab-content__item.is-show {
+  display: block;
+  -webkit-animation: fadeIn 0.3s ease;
+          animation: fadeIn 0.3s ease;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/**
+ * レイアウトのためのスタイル
+ */
+ul {
+  list-style-type: none;
+  padding: 0;
+}

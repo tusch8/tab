@@ -1,0 +1,47 @@
+/**
+ * タブ
+ */
+.tab-trigger {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	.tab-trigger__item {
+		margin-right: 10px;
+		padding: 10px 20px;
+		border: 1px solid #ccc;
+		background: #ccc;
+		cursor: pointer;
+		&.is-active {
+			background: #fff;
+		}
+	}
+}
+
+.tab-content {
+	.tab-content__item {
+		display: none;
+		padding: 20px;
+		border: 1px solid #ccc;
+		&.is-show {
+			display: block;
+			animation: fadeIn 0.3s ease;
+		}
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/**
+ * レイアウトのためのスタイル
+ */
+ul {
+	list-style-type: none;
+	padding: 0;
+}
