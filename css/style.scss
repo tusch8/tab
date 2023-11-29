@@ -41,6 +41,9 @@
 /**
  * レイアウトのためのスタイル
  */
+section + section {
+	margin-top: 50px;
+}
 ul {
 	list-style-type: none;
 	padding: 0;
