@@ -2,4 +2,4 @@
 ただのタブ  
 
 ## デモ
-https://inaro8.github.io/tab/
+https://tusch8.github.io/tab/
